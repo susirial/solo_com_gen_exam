@@ -1,0 +1,23 @@
+{
+  "skill_name": "exam-paper-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "给初二数学生成一张 90 分钟期中试卷，分选择、填空、解答三节。先确认需求，再输出组卷方案，确认后再生成完整试卷内容，并给出教师版和学生版 HTML。",
+      "expected_output": "Skill 先追问或确认关键输入，再输出组卷方案，而不是直接一次性出完整卷子。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "把阅读理解第 2 题重生一版，难度提高，但不要重复原知识点。",
+      "expected_output": "Skill 应把任务识别为单题重生，先确认约束，只处理单题而不是整卷。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我已经有结构化试卷 JSON，帮我渲染教师版和学生版 HTML。",
+      "expected_output": "Skill 应直接检查结构并渲染 HTML，不再重新生成试卷内容。",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+- [x] 已创建考卷生成 Skill 计划的 `spec.md`
+- [x] `spec.md` 明确当前阶段只生成计划文档，不直接实现最终 Skill
+- [x] `spec.md` 覆盖 Anthropic Skills 的基础结构要求，包括 `SKILL.md`、`name`、`description`
+- [x] `spec.md` 覆盖渐进式加载与资源分层要求，包括正文与可选 `references/`、`scripts/`、`assets/`
+- [x] `spec.md` 覆盖触发策略与指令写法最佳实践
+- [x] `spec.md` 覆盖围绕《考卷生成说明》提炼出的领域能力边界
+- [x] `spec.md` 覆盖后续评估与验证思路
+- [x] 已创建与规格一致的 `tasks.md`
+- [x] `tasks.md` 将工作拆成小步、可验证、可按依赖推进的任务
